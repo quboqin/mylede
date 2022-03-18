@@ -8,4 +8,4 @@ endTime=`date +%Y%m%d-%H:%M`
 endTime_s=`date +%s`
 sumTime=$[ $endTime_s - $startTime_s ]
  
-echo "$startTime ---> $endTime" "Totl:$sumTime minutes" 
+echo "$startTime ---> $endTime" "Totl:$sumTime second" 
