@@ -2,7 +2,7 @@
 startTime=`date +%Y%m%d-%H:%M` 
 startTime_s=`date +%s`
  
-make -j1 V=s
+make -j8 V=s
  
 endTime=`date +%Y%m%d-%H:%M`
 endTime_s=`date +%s`
